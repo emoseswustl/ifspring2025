@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body {
+    font-family: "Crimson Text", serif;
+    background-color: rgb(55, 12, 12);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-top: 4px;
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 18px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;    
+    justify-content: center;
+    gap: 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 40%;
+}
+
+.weight_400 {
+    font-weight: 400;
+}
+
+.weight_600 {
+    font-weight: 600;
+}
+
+.weight_700 {
+    font-weight: 700;
+}
+
+.style_normal {
+    font-style: normal;
+}
+
+.style_italic {
+    font-style: italic;
+}
+
+.style_oblique {
+    font-style: oblique;
+}
+
+.letter_zero {
+    letter-spacing: 0px;
+}
+
+.letter_two {
+    letter-spacing: 2px;
+}
+
+.letter_four {
+    letter-spacing: 4px;
+}
+
+.letter_minustwo {
+    letter-spacing: -2px;
+}
+
+.letter_minusfour {
+    letter-spacing: -4px;
+}
+
+.transform_none {
+    text-transform: none;
+}
+
+.transform_upper {
+    text-transform: uppercase;
+}
+
+.transform_lower {
+    text-transform: lowercase;
+}
+
+.decoration_wavy {
+    text-decoration: underline wavy;
+}
+
+.decoration_dotted {
+    text-decoration: overline dotted;
+}
+
+.decoration_double {
+    text-decoration: overline double;
+}
+
+.decoration_line {
+    text-decoration: underline;
+}
+
+.decoration_none {
+    text-decoration: none;
+}
+
+code {
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    background-color: lightpink;
+    border-radius: 8px;
+    padding: 6px;
+    text-align: center;
+}
+
+pre {
+    background-color: lightpink;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 26px;
+    width: auto;
+}
