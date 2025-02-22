@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+html {
+    font-family: "Archivo Narrow", serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6)
+      ), url("IMG_1660.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 60pt;
+    line-height: 0.95;
+}
+
+header h2 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 2.25;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 56px;
+    background-color: white;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 38px 0;
+    line-height: 1;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+section > div.column, footer {
+    width: 960px;
+}
+
+footer {
+    margin: auto;
+    background-color: white;
+}
+
+footer p {
+    padding-top: 24px;
+}
+
+.column img {
+    width: 400px;
+    height: 300px;
+    float: right;
+    border: 1px solid black;
+    margin: 0px 0px 20px 38px;
+}
+
+section#intro {
+    background-color: rgb(190, 216, 255);
+}
+
+.photos {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -1px;
+    column-gap: 30px;
+    row-gap: 22px;
+    flex-wrap: wrap;
+    padding-bottom: 7px;
+}
+
+.block {
+    width: 450px;
+}
+
+.block h4 {
+    margin: 0;
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.block p {
+    margin-top: 7px;
+}
+
+.block img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+section#last {
+    background-color: rgb(232, 190, 255);
+}
+
+#last p {
+    text-align: center;
+    width: 710px;
+    font-size: 26px;
+    margin: auto;
+    padding-bottom: 44px;
+}
