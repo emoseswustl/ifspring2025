@@ -19,6 +19,7 @@ aside {
 
 li {
     list-style: none;
+    font-size: 0.8rem;
 }
 
 #stretchable-grid-items li {
