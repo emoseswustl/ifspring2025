@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+}
+
+main, summary {
+    width: 75%;
+    margin: auto;
+}
+
+header {
+    position: relative;
+    margin: 0;
+    width: 100vw;
+}
+
+header > img {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+nav {
+    color: white;
+    background-color: rgb(232, 71, 22);
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 12.5%;
+}
+
+nav *, nav a {
+    color: white;
+}
+
+i {
+    padding-right: 5px;
+}
+
+nav h1 {
+    width: 300px;
+    font-size: 32px;
+    margin: 0px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-grow: 5;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+summary {
+    display: flex;
+}
+
+summary section {
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ingredients {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#substitutions {
+    display: flex;
+}
+
+.nobold {
+    font-weight: normal;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img {
+    width: auto;
+    height: 300px;
+}
+
+.images img {
+    height: 200px;
+}
+
+ol img, ul image {
+    padding-top: 50px;
+}
+
+li {
+    padding: 5px;
+}
+
+ul h3 {
+    margin-left: -40px;
+}
+
+.img-ing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#ingredientscam {
+    flex-grow: 100;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1100px) {
+    header > img {
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        display: inline;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .img-ing {
+        flex-direction: column-reverse;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    main,summary {
+        width: 95%;
+    }
+
+    nav {
+        justify-content: space-between;
+        padding: 10px 2.5%;
+    }
+
+    .links {
+        justify-content: right;
+    }
+    
+    .links a {
+        justify-content: right;
+        width: auto;
+        font-size: 0px;
+        padding-left: 30px;
+        margin-right: 0;
+    }
+
+    nav h1 {
+        width: auto;
+        text-align: left;
+    }
+
+    .fa-solid {
+        font-size: 32px;
+    }
+
+    summary img {
+        display: none;
+    }
+}
