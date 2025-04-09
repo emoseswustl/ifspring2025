@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@font-face {
+  font-family: TavernS;
+  src: url(../fonts/tavern-s-bold.otf);
+}
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background-color: #fff6ec;
+}
+
+#logo {
+  width: 252px;
+  height: auto;
+}
+
+header {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  padding: 20px 40px;
+  background-color: rgba(191, 122, 73, 0.7254901961);
+  background: linear-gradient(rgba(191, 122, 73, 0.7254901961), rgba(191, 122, 73, 0.7254901961)), url(../images/background.jpeg) center no-repeat;
+  background-size: cover;
+}
+
+main, footer {
+  padding: 0px 40px;
+}
+
+.desktop {
+  margin-top: 10px;
+  font-size: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+main {
+  position: relative;
+}
+
+#main {
+  margin: 0 -40px;
+  width: 100vw;
+  height: calc(100vh - 142.5px);
+  object-fit: cover;
+  object-position: 0% 5%;
+}
+
+#imagetext {
+  position: absolute;
+  top: 0px;
+}
+
+footer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.prev_button, .next_button {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.prev_button {
+  background: #9BA4C6;
+}
+
+.next_button {
+  background: #618A56;
+}
+
+.sidebyside {
+  display: flex;
+  gap: 50px;
+}
+
+.sidebyside aside img {
+  width: 20vw;
+}
+
+.sidebyside aside p {
+  text-align: center;
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: TavernS;
+}
+
+h2 {
+  font-size: 26px;
+  color: #618A56;
+}
+
+p {
+  font-size: 18px;
+}
+
+header i {
+  color: white;
+  font-size: 45px;
+  cursor: pointer;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mlinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  font-size: 22px;
+  height: calc(100vh - 118px);
+}
+
+.current {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.director {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  gap: 30px;
+}
+
+.actors {
+  display: flex;
+  gap: 20px;
+}
+
+.actor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.director {
+  padding-bottom: 40px;
+}
+
+.director h2, .headers h2 {
+  color: #844E27;
+  font-size: 22px;
+}
+
+.director h2:first-child {
+  margin-top: 0;
+}
+
+.director img {
+  box-sizing: border-box;
+  border: 4px #618A56 solid;
+}
+
+.actor > img {
+  width: 100%;
+}
+
+.director > img {
+  width: 20%;
+  height: auto;
+}
+
+audio {
+  color: #618A56;
+}
+
+@media screen and (min-width: 1100px) {
+  .mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #close {
+    display: none;
+  }
+  .desktop {
+    display: none;
+  }
+  .mlinks {
+    display: none;
+  }
+  .sidebyside {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sidebyside aside {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    order: -1;
+  }
+  .sidebyside aside img {
+    width: 100%;
+  }
+  .director {
+    display: flex;
+    flex-direction: column;
+  }
+  .director > img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  .actors {
+    flex-wrap: wrap;
+  }
+  .actor {
+    flex: calc(50% - 10px);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
