@@ -102,7 +102,7 @@ footer {
 
 .sidebyside {
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 .sidebyside aside img {
@@ -231,7 +231,7 @@ audio {
 
 nav {
   width: max-content;
-  height: 50px;
+  height: 40px;
 }
 
 .bar {
